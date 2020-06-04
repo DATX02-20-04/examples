@@ -1,0 +1,28 @@
+#+TITLE: Music Synthesis in the Waveform Domain Using Artificial Neural Networks
+#+AUTHOR: Cao Do, Carl Agrell, Christoffer Arvidsson, Elias Sundqvist, Eric Norman, Lovisa Landgren
+#+html_head: <link rel="stylesheet" type="text/css" href="main.css" />
+
+#+MACRO: AUDIO @@html: <audio controls="controls" src="$1"></audio>@@
+
+* Our System
+
+#+attr_html: :width 100%
+[[./images/overview.png]]
+** Melody Generator
+#+attr_html: :width 50%
+[[./images/MG.png]]
+
+[[./images/gen_plot_3450000.png]]
+
+{{{AUDIO(audio/gen_3450k.mp3)}}}
+
+
+** Audio Generator
+#+attr_html: :width 65%
+[[./images/AG.png]]
+
+{{{AUDIO(audio/gen_3450k.mp3)}}}
+
+** Renderer
+#+attr_html: :width 100%
+[[./images/R.png]]
