@@ -18,7 +18,7 @@ rendered with [[https://lmms.io/][LMMS]] digital audio workstation below.
 files=$(ls audio/mg)
 echo "<div class=\"grid\">"
 for file in $files; do
-    echo "<div><audio controls=\"controls\" src=\"audio/$file\"></audio></div>"
+    echo "<div><audio controls=\"controls\" src=\"audio/mg/$file\"></audio></div>"
 done
 echo "</div>"
 #+END_SRC
@@ -26,10 +26,10 @@ echo "</div>"
 #+RESULTS:
 #+begin_export html
 <div class="grid">
-<div><audio controls="controls" src="audio/transformer_gen_3003k.mp3"></audio></div>
-<div><audio controls="controls" src="audio/transformer_gen_3006k.mp3"></audio></div>
-<div><audio controls="controls" src="audio/transformer_gen_3480k.mp3"></audio></div>
-<div><audio controls="controls" src="audio/transformer_long.mp3"></audio></div>
+<div><audio controls="controls" src="audio/mg/transformer_gen_3003k.mp3"></audio></div>
+<div><audio controls="controls" src="audio/mg/transformer_gen_3006k.mp3"></audio></div>
+<div><audio controls="controls" src="audio/mg/transformer_gen_3480k.mp3"></audio></div>
+<div><audio controls="controls" src="audio/mg/transformer_long.mp3"></audio></div>
 </div>
 #+end_export
 
@@ -47,7 +47,7 @@ model.
 files=$(ls audio/ag)
 echo "<div class=\"grid\">"
 for file in $files; do
-    echo "<div><audio controls=\"controls\" src=\"audio/$file\"></audio></div>"
+    echo "<div><audio controls=\"controls\" src=\"audio/ag/$file\"></audio></div>"
 done
 echo "</div>"
 #+END_SRC
@@ -55,10 +55,10 @@ echo "</div>"
 #+RESULTS:
 #+begin_export html
 <div class="grid">
-<div><audio controls="controls" src="audio/notes0.wav"></audio></div>
-<div><audio controls="controls" src="audio/notes1.wav"></audio></div>
-<div><audio controls="controls" src="audio/notes2.wav"></audio></div>
-<div><audio controls="controls" src="audio/notes3.wav"></audio></div>
+<div><audio controls="controls" src="audio/ag/notes0.wav"></audio></div>
+<div><audio controls="controls" src="audio/ag/notes1.wav"></audio></div>
+<div><audio controls="controls" src="audio/ag/notes2.wav"></audio></div>
+<div><audio controls="controls" src="audio/ag/notes3.wav"></audio></div>
 </div>
 #+end_export
 
@@ -73,7 +73,7 @@ the melody generator and audio generator.
 files=$(ls audio/r)
 echo "<div class=\"grid\">"
 for file in $files; do
-    echo "<div><audio controls=\"controls\" src=\"audio/$file\"></audio></div>"
+    echo "<div><audio controls=\"controls\" src=\"audio/r/$file\"></audio></div>"
 done
 echo "</div>"
 #+END_SRC
@@ -81,33 +81,33 @@ echo "</div>"
 #+RESULTS:
 #+begin_export html
 <div class="grid">
-<div><audio controls="controls" src="audio/gen_melody1589487787.wav"></audio></div>
-<div><audio controls="controls" src="audio/gen_melody1589489705.wav"></audio></div>
-<div><audio controls="controls" src="audio/gen_melody1589489994.wav"></audio></div>
-<div><audio controls="controls" src="audio/gen_melody1589490859.wav"></audio></div>
-<div><audio controls="controls" src="audio/gen_melody1589493530.wav"></audio></div>
-<div><audio controls="controls" src="audio/gen_melody1589501038.wav"></audio></div>
-<div><audio controls="controls" src="audio/gen_melody1589501489.wav"></audio></div>
-<div><audio controls="controls" src="audio/gen_melody1589506159.wav"></audio></div>
-<div><audio controls="controls" src="audio/gen_melody1589510572.wav"></audio></div>
-<div><audio controls="controls" src="audio/gen_melody1589514674.wav"></audio></div>
-<div><audio controls="controls" src="audio/gen_melody1589519622.wav"></audio></div>
-<div><audio controls="controls" src="audio/gen_melody1589523061.wav"></audio></div>
-<div><audio controls="controls" src="audio/gen_melody1589528419.wav"></audio></div>
-<div><audio controls="controls" src="audio/gen_melody1589539918.wav"></audio></div>
-<div><audio controls="controls" src="audio/gen_melody1589543366.wav"></audio></div>
-<div><audio controls="controls" src="audio/gen_melody1589544457.wav"></audio></div>
-<div><audio controls="controls" src="audio/gen_melody1589547057.wav"></audio></div>
-<div><audio controls="controls" src="audio/gen_melody1589549503.wav"></audio></div>
-<div><audio controls="controls" src="audio/gen_melody1589552102.wav"></audio></div>
-<div><audio controls="controls" src="audio/gen_melody1589553514.wav"></audio></div>
-<div><audio controls="controls" src="audio/gen_melody1589554765.wav"></audio></div>
-<div><audio controls="controls" src="audio/gen_melody1590310147614.wav"></audio></div>
-<div><audio controls="controls" src="audio/gen_melody1590312646811.wav"></audio></div>
-<div><audio controls="controls" src="audio/gen_melody1590383251457.wav"></audio></div>
-<div><audio controls="controls" src="audio/gen_melody1590388144435.wav"></audio></div>
-<div><audio controls="controls" src="audio/gen_melody1590402104727.wav"></audio></div>
-<div><audio controls="controls" src="audio/gen_melody1590403728762.wav"></audio></div>
-<div><audio controls="controls" src="audio/gen_melody1590404614405.wav"></audio></div>
+<div><audio controls="controls" src="audio/r/gen_melody1589487787.wav"></audio></div>
+<div><audio controls="controls" src="audio/r/gen_melody1589489705.wav"></audio></div>
+<div><audio controls="controls" src="audio/r/gen_melody1589489994.wav"></audio></div>
+<div><audio controls="controls" src="audio/r/gen_melody1589490859.wav"></audio></div>
+<div><audio controls="controls" src="audio/r/gen_melody1589493530.wav"></audio></div>
+<div><audio controls="controls" src="audio/r/gen_melody1589501038.wav"></audio></div>
+<div><audio controls="controls" src="audio/r/gen_melody1589501489.wav"></audio></div>
+<div><audio controls="controls" src="audio/r/gen_melody1589506159.wav"></audio></div>
+<div><audio controls="controls" src="audio/r/gen_melody1589510572.wav"></audio></div>
+<div><audio controls="controls" src="audio/r/gen_melody1589514674.wav"></audio></div>
+<div><audio controls="controls" src="audio/r/gen_melody1589519622.wav"></audio></div>
+<div><audio controls="controls" src="audio/r/gen_melody1589523061.wav"></audio></div>
+<div><audio controls="controls" src="audio/r/gen_melody1589528419.wav"></audio></div>
+<div><audio controls="controls" src="audio/r/gen_melody1589539918.wav"></audio></div>
+<div><audio controls="controls" src="audio/r/gen_melody1589543366.wav"></audio></div>
+<div><audio controls="controls" src="audio/r/gen_melody1589544457.wav"></audio></div>
+<div><audio controls="controls" src="audio/r/gen_melody1589547057.wav"></audio></div>
+<div><audio controls="controls" src="audio/r/gen_melody1589549503.wav"></audio></div>
+<div><audio controls="controls" src="audio/r/gen_melody1589552102.wav"></audio></div>
+<div><audio controls="controls" src="audio/r/gen_melody1589553514.wav"></audio></div>
+<div><audio controls="controls" src="audio/r/gen_melody1589554765.wav"></audio></div>
+<div><audio controls="controls" src="audio/r/gen_melody1590310147614.wav"></audio></div>
+<div><audio controls="controls" src="audio/r/gen_melody1590312646811.wav"></audio></div>
+<div><audio controls="controls" src="audio/r/gen_melody1590383251457.wav"></audio></div>
+<div><audio controls="controls" src="audio/r/gen_melody1590388144435.wav"></audio></div>
+<div><audio controls="controls" src="audio/r/gen_melody1590402104727.wav"></audio></div>
+<div><audio controls="controls" src="audio/r/gen_melody1590403728762.wav"></audio></div>
+<div><audio controls="controls" src="audio/r/gen_melody1590404614405.wav"></audio></div>
 </div>
 #+end_export
