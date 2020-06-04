@@ -5,7 +5,9 @@
 #+MACRO: AUDIO @@html: <audio controls="controls" src="$1"></audio>@@
 
 * Our System
-
+This is the page for displaying our system result examples, the system consists
+of three parts; the melody generator, the audio generator and the renderer. We
+have results for each part.
 #+attr_html: :width 100%
 [[./images/overview.png]]
 ** Melody Generator
