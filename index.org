@@ -1,5 +1,6 @@
 #+TITLE: Music Synthesis in the Waveform Domain Using Artificial Neural Networks
 #+SUBTITLE: DATX02-20-04
+#+OPTIONS: num:nil toc:nil
 #+AUTHOR: Cao Do, Carl Agrell, Christoffer Arvidsson, Elias Sundqvist, Eric Norman, Lovisa Landgren
 #+html_head: <link rel="stylesheet" type="text/css" href="main.css" />
 
