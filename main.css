@@ -244,3 +244,16 @@ table td {
 .figure p {
     margin: 0;
 }
+
+.grid {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.grid div {
+    text-align: center;
+    width: 45%;
+    margin: auto;
+    padding: 10px;
+}
